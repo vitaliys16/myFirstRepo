@@ -1,12 +1,9 @@
 //alert ('Hi, dude!');
 //console.log('Hi, console!');
-'use strict';
-let snake_Case = 10;
-const width = 11; //const переменная не поддается изменениям
+const div = document.getElementById('github');
 
-snake_Case = 30;
-
-console.log(snake_Case);
-
+const logged = () => {
+    console.log(div.textContent);
+};
 
 
